@@ -1,0 +1,138 @@
+{
+    "ORDEN_RECETAS": [
+        "Espada_Madera",
+        "Espada_Piedra",
+        "Espada_Hierro",
+        "Espada_Diamante",
+
+        "Pico_Madera",
+        "Pico_Piedra",
+        "Pico_Hierro",
+        "Pico_Diamante",
+
+        "Pala_Madera",
+        "Pala_Piedra",
+        "Pala_Hierro",
+        "Pala_Diamante",
+
+        "Cuerda"
+    ],
+
+ //CLASES ABSTRACTAS PARA AGRUPAR RECETAS SIMILARES
+
+    "ESPADAS": {
+        "Tipo": "Herramienta",
+        "Entrada": { "Palos": 1 },
+    },
+
+    "PICOS": {
+        "Tipo": "Herramienta",
+        "Entrada": { "Palos": 2 },        
+    },
+
+    "PALAS": {
+        "Tipo": "Herramienta",
+        "Entrada": { "Palos": 2 },        
+    },
+
+    "HACHAS": {
+        "Tipo": "Herramienta",
+        "Entrada": { "Palos": 2 },        
+    },
+
+    //CLASES CONCRETAS QUE HEREDAN DE LAS ABSTRACTAS
+
+    "Espada_Madera": {
+        "Base": "ESPADAS",
+        "Entrada": { "Madera": 2 },
+        "Salida": { "Espada_Madera": 1 }
+    },
+    "Espada_Piedra": {
+        "Base": "ESPADAS",
+        "Entrada": { "Piedra": 2 },
+        "Salida": { "Espada_Piedra": 1 }
+    },
+    "Espada_Hierro": {
+        "Base": "ESPADAS",
+        "Entrada": { "Hierro": 2 },
+        "Salida": { "Espada_Hierro": 1 }
+    },
+    "Espada_Diamante": {
+        "Base": "ESPADAS",
+        "Entrada": { "Diamante": 2 },
+        "Salida": { "Espada_Diamante": 1 }
+    },
+    
+
+    "Pico_Madera": {
+        "Base": "PICOS",
+        "Entrada": { "Madera": 3 },
+        "Salida": { "Pico_Madera": 1 }
+    },
+    "Pico_Piedra": {
+        "Base": "PICOS",
+        "Entrada": { "Piedra": 3 },
+        "Salida": { "Pico_Piedra": 1 }
+    },
+    "Pico_Hierro": {
+        "Base": "PICOS",
+        "Entrada": { "Hierro": 3 },
+        "Salida": { "Pico_Hierro": 1 }
+    },
+    "Pico_Diamante": {
+        "Base": "PICOS",
+        "Entrada": { "Diamante": 3 },
+        "Salida": { "Pico_Diamante": 1 }
+    },
+
+
+
+    "Pala_Madera": {
+        "Base": "PALAS",
+        "Entrada": { "Madera": 1 },
+        "Salida": { "Pala_Madera": 1 }
+    },
+    "Pala_Piedra": {
+        "Base": "PALAS",
+        "Entrada": { "Piedra": 1 },
+        "Salida": { "Pala_Piedra": 1 }
+    },
+    "Pala_Hierro": {
+        "Base": "PALAS",
+        "Entrada": { "Hierro": 1 },
+        "Salida": { "Pala_Hierro": 1 }
+    },
+    "Pala_Diamante": {
+        "Base": "PALAS",
+        "Entrada": { "Diamante": 1 },
+        "Salida": { "Pala_Diamante": 1 }
+    },
+
+
+    "Hacha_Madera": {
+        "Base": "HACHAS",
+        "Entrada": { "Madera": 3 },
+        "Salida": { "Hacha_Madera": 1 }
+    },
+    "Hacha_Piedra": {
+        "Base": "HACHAS",
+        "Entrada": { "Piedra": 3 },
+        "Salida": { "Hacha_Piedra": 1 }
+    },
+    "Hacha_Hierro": {
+        "Base": "HACHAS",
+        "Entrada": { "Hierro": 3 },
+        "Salida": { "Hacha_Hierro": 1 }
+    },
+    "Hacha_Diamante": {
+        "Base": "HACHAS",
+        "Entrada": { "Diamante": 3 },
+        "Salida": { "Hacha_Diamante": 1 }
+    },
+
+    
+    "Cuerda": {
+        "Entrada": { "Slime": 3 },
+        "Salida": { "Cuerda": 1 }
+    }
+}
