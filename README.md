@@ -5,19 +5,19 @@ COMO EJECUTAR EL CÓDIGO
 
 Versión con interfaz:
 
-1 Instalar love2D y añadir la carpeta del programa al PATH
-2 Instalar lua y añadir al PATH (en nuestro caso se añadió al path automaticamente)
-3 en el terminal ejecutar cd y agregar la direccion de ruta a la carpeta src
-ej: cd C:\Users\Manuel\Documents\GitHub\proyecto-analisis-lenguaje-lauraa\src
-4 ejecutar en el terminal "love ."
+1) Instalar love2D y añadir la carpeta del programa al PATH
+2) Instalar lua y añadir al PATH (en nuestro caso se añadió al path automaticamente)
+3) en el terminal ejecutar cd y agregar la direccion de ruta a la carpeta src
+ej: cd C:\Users\abc\Documents\GitHub\proyecto-analisis-lenguaje-lauraa\src
+4) ejecutar en el terminal "love ."
 
 
 Versión sin interfaz:
 
-1 Instalar lua y añadir al PATH (en nuestro caso se añadió al path automaticamente)
-2 en el terminal ejecutar cd y agregar la direccion de ruta a la carpeta src - Version sin interfaz
-ej: cd C:\Users\Manuel\Documents\GitHub\proyecto-analisis-lenguaje-lauraa\src - Version sin interfaz
-4 ejecutar en el terminal "lua main.lua"
+1) Instalar lua y añadir al PATH (en nuestro caso se añadió al path automaticamente)
+2) en el terminal ejecutar cd y agregar la direccion de ruta a la carpeta src - Version sin interfaz
+ej: cd C:\Users\abc\Documents\GitHub\proyecto-analisis-lenguaje-lauraa\src - Version sin interfaz
+4) ejecutar en el terminal "lua main.lua"
 
 Explicación del código
 
